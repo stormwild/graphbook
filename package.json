@@ -1,0 +1,12 @@
+{
+  "name": "graphbook",
+  "version": "1.0.0",
+  "description": "Sample application for Hands-On Full-Stack Web Development with GraphQL and React",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
