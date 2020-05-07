@@ -122,6 +122,22 @@ yarn add --dev @babel/register
 }
 ```
 
+## Set Additional Features Not Supported by te Presets
+
+```json
+{
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    "@babel/plugin-proposal-function-sent",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-numeric-separator",
+    "@babel/plugin-proposal-throw-expressions",
+    ["@babel/plugin-proposal-class-properties", { "loose": false }]
+  ],
+  "presets": ["@babel/env", "@babel/react"]
+}
+```
+
 ## References
 
 Excerpt From: Sebastian Grebe. “Hands-On Full-Stack Web Development with GraphQL and React.” Apple Books.
